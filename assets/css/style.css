@@ -67,7 +67,24 @@ body {
   --base-color: #83827F;
   --lighter-color: rgba(255, 255, 255, 0.06);
   --border-color: rgba(92, 99, 123, 0.3); }
-
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #3d3d3d;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1b1b1b;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+  }
 a {
   color: var(--base-color);
   cursor: pointer;
