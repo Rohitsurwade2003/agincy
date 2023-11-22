@@ -3736,8 +3736,9 @@ h6, .h6 {
     position: absolute;
     right: 0;
     top: -100px;
-    width: 350px;
+    width: 300px;
     height: 250px;
+    padding: 20px;
     -webkit-filter: blur(350px);
     filter: blur(350px);
     -webkit-animation: 5s zoomInOut infinite;
